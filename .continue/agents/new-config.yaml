@@ -1,0 +1,16 @@
+models:
+  - title: "Local Qwen 7B (Chat)"
+    provider: "ollama"
+    model: "qwen2.5-coder:7b"
+    apiBase: "http://127.0.0.1:11434"
+
+tabAutocompleteModel:
+  title: "Local Qwen 7B Auto"
+  provider: "ollama"
+  model: "qwen2.5-coder:7b"
+  apiBase: "http://127.0.0.1:11434"
+
+# Optional settings to optimize UI speed
+tabAutocompleteOptions:
+  debounceDelay: 350
+  maxPromptTokens: 1024

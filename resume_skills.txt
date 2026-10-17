@@ -1,0 +1,9 @@
+Extracted Skills from Resume:
+Total unique skills found: 6
+
+AI
+AWS
+Azure
+Go
+Kubernetes
+Python

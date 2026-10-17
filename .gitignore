@@ -1,0 +1,54 @@
+# .gitignore for Job Searcher Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*$pyo
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment (Windows)
+.cvs
+.DS_Store
+IDE.vcsignore
+.vscode/*
+!.vscode/settings.json
+!**/.vscode/*/
+
+# Environment variables - NEVER commit API keys!
+.env
+.env.local
+.env.*.local
+
+# Logs and analysis files
+logs/
+*.log
+resume_analysis.txt
+resume_text*.txt
+
+# Test outputs
+job_matches.json
+test_output.json
+
+# IDE settings (optional)
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Keys.txt
+.env
+
+
+invoke_llm.ipynb
